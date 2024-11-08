@@ -1,5 +1,5 @@
 flask
-json
 os
 pytest
 tempfile
+pylint
