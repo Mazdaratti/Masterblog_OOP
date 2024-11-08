@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add a post</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="content">
+    <h1>Add a post</h1>
+    <form class="add-post" action="/add" method="POST">
+        <label for="author">Author</label>
+        <input type="text" name="author" id="author" placeholder="Author" required>
+        <label for="title">Post Title</label>
+        <input type="text" name="title" id="title" placeholder="Post title" required>
+        <label for="content">Post Text</label>
+        <textarea name="content" id="content" rows="20" placeholder="Post text" required></textarea>
+        <input type="submit" value="Add post" id="submit">
+    </form>
+</div>
+</body>
+</html>

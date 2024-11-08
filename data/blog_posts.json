@@ -1,0 +1,34 @@
+[
+    {
+        "id": 2,
+        "author": "Jane Doe",
+        "title": "Second Post",
+        "content": "Another post.",
+        "likes": 2
+    },
+    {
+        "id": 3,
+        "author": "Jane Moe",
+        "title": "Post title",
+        "content": " Yet another post.",
+        "likes": 2
+    },
+    {
+        "id": 4,
+        "author": "Author1",
+        "title": "Title1",
+        "content": "Content1"
+    },
+    {
+        "id": 5,
+        "author": "Author1",
+        "title": "Title1",
+        "content": "Content1"
+    },
+    {
+        "id": 6,
+        "author": "Author1",
+        "title": "Title1",
+        "content": "Content1"
+    }
+]
