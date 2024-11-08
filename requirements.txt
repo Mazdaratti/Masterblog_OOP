@@ -1,5 +1,4 @@
 flask
-os
 pytest
 tempfile
 pylint
