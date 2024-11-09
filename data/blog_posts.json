@@ -1,5 +1,12 @@
 [
     {
+        "id": 1,
+        "author": "John Wane",
+        "title": "First Post",
+        "content": "First post",
+        "likes": 1
+    },
+    {
         "id": 2,
         "author": "Jane Doe",
         "title": "Second Post",
@@ -12,23 +19,5 @@
         "title": "Post title",
         "content": " Yet another post.",
         "likes": 2
-    },
-    {
-        "id": 4,
-        "author": "Author1",
-        "title": "Title1",
-        "content": "Content1"
-    },
-    {
-        "id": 5,
-        "author": "Author1",
-        "title": "Title1",
-        "content": "Content1"
-    },
-    {
-        "id": 6,
-        "author": "Author1",
-        "title": "Title1",
-        "content": "Content1"
     }
 ]
